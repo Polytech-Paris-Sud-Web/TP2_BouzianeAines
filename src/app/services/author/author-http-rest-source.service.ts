@@ -9,15 +9,17 @@ export class AuthorHttpRestService implements AuthorSource {
 
   constructor(private readonly http : HttpClient) { }
 
+  private static readonly pathArticles:string = "https://my-json-server.typicode.com/Polytech-Paris-Sud-Web/TP2_BouzianeAines/authors";
+
   public getAuthorByName(id: string): Observable<AuthorBio> {
-    return this.http.get<AuthorBio>(`http://localhost:3000/authors/${id}`);
+    return this.http.get<AuthorBio>(`${AuthorHttpRestService.pathArticles}/${id}`);
   }
 
   public getAuthors(): Observable<AuthorBio[]> {
-    return this.http.get<AuthorBio[]>("http://localhost:3000/authors");
+    return this.http.get<AuthorBio[]>(AuthorHttpRestService.pathArticles);
   }
 
   public newAuthor(newAuthor: AuthorBio): Observable<AuthorBio> {
-    return this.http.post<AuthorBio>('http://localhost:3000/articles/', newAuthor);
+    return this.http.post<AuthorBio>(`${AuthorHttpRestService.pathArticles}/`, newAuthor);
   }
 }

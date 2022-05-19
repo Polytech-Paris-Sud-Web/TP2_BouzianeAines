@@ -9,20 +9,22 @@ export class ArticleHttpRestSource implements ArticleSource {
 
   constructor(private readonly http : HttpClient) { }
 
+  private static readonly pathArticles:string = "https://my-json-server.typicode.com/Polytech-Paris-Sud-Web/TP2_BouzianeAines/articles";
+
   public getArticles(): Observable<Article[]> {
-    return this.http.get<Article[]>("http://localhost:3000/articles");
+    return this.http.get<Article[]>(ArticleHttpRestSource.pathArticles);
   }
 
   public getArticle(id: number): Observable<Article> {
-    return this.http.get<Article>(`http://localhost:3000/articles/${id}`);
+    return this.http.get<Article>(`${ArticleHttpRestSource.pathArticles}/${id}`);
   }
 
   public removeArticle(id: number): Observable<void> {
-    return this.http.delete<any>(`http://localhost:3000/articles/${id}`);
+    return this.http.delete<any>(`${ArticleHttpRestSource.pathArticles}/${id}`);
   }
 
   public newArticle(article: NewArticle): Observable<Article> {
-    return this.http.post<Article>('http://localhost:3000/articles/', article);
+    return this.http.post<Article>(`${ArticleHttpRestSource.pathArticles}`, article);
   }
 }
 

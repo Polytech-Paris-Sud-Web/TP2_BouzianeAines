@@ -13,7 +13,7 @@ export class AuthorInMemorySource implements AuthorSource {
     if(author){
         return of(author);
     } else {
-        throw new Error(`Article not found for id ${id}`)
+        throw new Error(`Author named ${id} not found`)
     }
   }
 

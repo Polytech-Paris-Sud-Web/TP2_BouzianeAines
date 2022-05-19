@@ -67,7 +67,7 @@ const appRoutes: Routes = [
       }
     }, deps: [HttpClient]},
     {provide: AuthorSource, useFactory: (httpClient: HttpClient) => {
-      if(!environment.production){
+      if(environment.production){
         return new AuthorHttpRestService(httpClient);
       } else {
         return new AuthorInMemorySource();
