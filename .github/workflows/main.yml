@@ -2,8 +2,7 @@ name: Build and Deploy to Pages
 on:
   push:
     branches:
-      - master
-      - testDeploy
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
