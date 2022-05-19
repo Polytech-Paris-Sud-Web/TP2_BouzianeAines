@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - testDeploy
 jobs:
   build:
     runs-on: ubuntu-latest
