@@ -1,0 +1,134 @@
+{
+  "articles": [
+    {
+      "title": "Fake Title",
+      "content": "Test",
+      "author": "Test",
+      "date": "2022-05-18T14:11:21.409Z",
+      "id": 0
+    },
+    {
+      "title": "Fake Title",
+      "content": "Date",
+      "author": "Date",
+      "date": "2022-05-18T15:04:54.576Z",
+      "id": 1
+    },
+    {
+      "title": "Fake Title",
+      "content": "Date",
+      "author": "Date",
+      "date": "2021-05-18T15:04:54.576Z",
+      "id": 2
+    },
+    {
+      "title": "Fake Title",
+      "content": "Test",
+      "author": "Test",
+      "date": "2022-05-18T14:11:21.409Z",
+      "id": 3
+    },
+    {
+      "title": "Fake Title",
+      "content": "Test",
+      "author": "Test",
+      "date": "2000-05-18T14:11:21.409Z",
+      "id": 4
+    },
+    {
+      "title": "Fake Title",
+      "content": "Test",
+      "author": "Test",
+      "date": "2099-05-18T14:11:21.409Z",
+      "id": 5
+    },
+    {
+      "title": "Fake Title",
+      "content": "Date",
+      "author": "Date",
+      "date": "2022-05-18T15:04:54.576Z",
+      "id": 6
+    },
+    {
+      "title": "Fake Title",
+      "content": "Date",
+      "author": "Date",
+      "date": "2021-05-18T15:04:54.576Z",
+      "id": 7
+    },
+    {
+      "title": "Fake Title",
+      "content": "Date",
+      "author": "Date",
+      "date": "2022-09-18T15:04:54.576Z",
+      "id": 8
+    },
+    {
+      "title": "Fake Title",
+      "content": "Test",
+      "author": "Test",
+      "date": "2028-11-18T14:11:21.409Z",
+      "id": 9
+    },
+    {
+      "title": "Fake Title",
+      "content": "Date",
+      "author": "Date",
+      "date": "2015-12-18T15:04:54.576Z",
+      "id": 10
+    },
+    {
+      "title": "Fake Title",
+      "content": "Date",
+      "author": "Date",
+      "date": "2011-05-18T15:04:54.576Z",
+      "id": 11
+    },
+    {
+      "title": "Fake Title",
+      "content": "Date",
+      "author": "Date",
+      "date": "2035-01-18T15:04:54.576Z",
+      "id": 12
+    },
+    {
+      "title": "CS Go c'est le meilleur jeu",
+      "content": "point",
+      "author": "Shiritus",
+      "date": "2022-05-18T15:38:48.362Z",
+      "id": 13
+    },
+    {
+      "title": "Opportunité ",
+      "content": "Bonjour Ainès,\n\nJe vous remercie de m'avoir contacté et votre offre est très intéressante.\n\nToutefois, sur les FPS, je suis spécialisé dans le camping (et CS:GO n'est pas très adaptée à cela). De plus, ma principale spécialisation reste les RTS et les 4X. \n\nAvez-vous des opportunités dans ces secteurs ?\n\nBien à vous,\n\nLeonid Shurygin",
+      "author": "Leonid",
+      "date": "2022-05-18T16:18:39.731Z",
+      "id": 14
+    },
+    {
+      "title": "NewService",
+      "content": "NewService",
+      "author": "NewService",
+      "date": "2022-05-19T11:44:12.105Z",
+      "id": 15
+    }
+  ],
+  "authors": [
+    {
+      "id": "Ainès Bouziane",
+      "content": "Le meilleur"
+    },
+    {
+      "id": "Orangefire",
+      "content": "looks awesome!"
+    },
+    {
+      "id": "Test",
+      "content": "Test"
+    },
+    {
+      "id": "Date",
+      "content": "Je suis une date :)"
+    }
+  ]
+}

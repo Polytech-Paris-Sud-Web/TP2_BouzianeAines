@@ -1,0 +1,7 @@
+<h3> Top 10 Articles </h3>
+
+Filter (by title or author) : <input [(ngModel)]="query">
+
+<div *ngFor="let art of this.sortData | searchArticle:'title,author':query">
+    <h3> {{art?.title}} </h3>
+</div>

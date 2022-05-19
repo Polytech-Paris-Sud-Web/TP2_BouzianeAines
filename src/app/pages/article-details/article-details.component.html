@@ -1,0 +1,17 @@
+<div>
+    <h3> Detail of the article :  {{article?.title}} </h3>
+    <p> {{article?.content}} </p>
+    <p class="author">{{article?.author}}</p>
+    <p> Date : {{article?.date | date: 'shortDate' }} </p>
+
+    <button (click)="goBack()">Back</button> 
+    <button (click)="loadBio()">See the author bio</button>
+
+    <div *ngIf = "this.author != null">
+        <h3> Bio </h3>
+        <p>
+            {{this.getAuthorBio()}}
+        </p>
+    </div>
+
+</div>

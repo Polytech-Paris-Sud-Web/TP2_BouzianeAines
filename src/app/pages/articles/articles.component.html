@@ -1,0 +1,7 @@
+<h3> Articles </h3>
+
+Filter (by title or author) : <input [(ngModel)]="query">
+
+<div *ngFor="let art of this.articles | searchArticle:'title,author':query">
+    <app-article [article]="art" (deletedArticle)="removeFromBDD($event)"></app-article>
+</div>

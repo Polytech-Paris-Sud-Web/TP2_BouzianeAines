@@ -1,0 +1,10 @@
+<div>
+    <h3> {{article?.title}} </h3>
+    <p> {{article?.content}} </p>
+    <p class="author">{{article?.author}}</p>
+    <p> {{article?.date | date: 'shortDate' }} </p>
+
+    <button (click)="delete()">Delete</button> 
+    <button (click)="read()">Read</button>
+
+</div>
